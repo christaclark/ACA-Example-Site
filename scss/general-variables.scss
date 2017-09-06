@@ -1,0 +1,209 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url('https://fonts.google.com/specimen/Rubik');
+
+
+/* ========================================================== */
+
+
+/* Base Colors : START */
+
+$brand-success:#ed5f43;
+$bg-btn-hover:#E24D2F;
+$bg-primary-color:#FFFFFF;
+$bg-secondary-color:#F4F4F4;
+$headline-color:#2b363f;
+$text-color:#5b6b79;
+$main-font-size:17px;
+
+/* Base Colors : END */
+
+$main-font-family:'PT Sans',
+sans-serif;
+$secondary-font-family:'Cabin',
+sans-serif;
+$title-font-family:'Rubik', Arial, sans-serif;
+$title-font-family-ligth:'Rubik Light', Arial, sans-serif;
+$title-font-family-regular:'Rubik Regular', Arial, sans-serif;
+
+
+/* Buttons */
+
+$btn-primary-color:$brand-success;
+$btn-secondary-color: #FFFFFF;
+
+/* End Buttons */
+
+$footer-bg-color:#3F3F3F;
+$mainParagraphs-maxWidth:480px;
+
+/*footer  button*/
+$btn-color-grey:#a2b2bd;
+$btn-color-grey-hover:#5b6b79;
+/* ========================================================== */
+
+
+/* Header : START */
+
+$header-bg-color:rgba(0, 0, 0, 0.5);
+$brand-color:#FFFFFF;
+$menu-link-active-color:$text-color;
+$menu-link-default-state-color:#FFFFFF;
+$menu-underline-color:#FFFFFF;
+$jumbotron-button-color:$brand-success;
+$jumbotron-title-color:$headline-color;
+$jumbotron-text-color:$text-color;
+$logo-section-bg-color:#edf1f3;
+
+
+/* Header : END */
+
+
+/* Headlines/Titles */
+
+$h1-font-size: 50px !important;
+$h2-font-size: 40px !important;
+$h3-font-size: 34px !important;
+$h4-font-size: 28px !important;
+$h5-font-size: 24px !important;
+$h6-font-size: 20px !important;
+
+/* End Headlines/Titles */
+
+
+
+
+/* ========================================================== */
+
+/* CONTENT : START */
+
+$title-heading-color:#ed5f43 ;
+
+
+/* CONTENT : END */
+
+
+/* ========================================================== */
+
+/* Popular : START */
+
+$popular-heading-color:#2B4458;
+$popular-text-color:$text-color;
+$popular-logo-color:$text-color;
+$popular-link-color:$text-color;
+$popular-bg-color:$bg-primary-color;
+$popular-images-bg-color:#D8D8D8;
+$popular-section-bg-color:#edf1f3;
+
+
+/* Popular : END */
+
+
+/* ========================================================== */
+
+
+/* ========================================================== */
+
+
+/* Advertise : START */
+
+$advertise-title-color:$headline-color;
+$advertise-separator-color:#2B4458;
+$advertise-text-color:$text-color;
+$advertise-bg-color:$bg-primary-color;
+
+/* Advertise : END */
+
+
+/* ========================================================== */
+
+
+/* ========================================================== */
+
+
+/* Services : START */
+
+$services-title-color:$headline-color;
+$services-heading-color:#2B4458;
+$services-text-color:$text-color;
+$services-logo-color:$text-color;
+$services-bg-color:$bg-primary-color;
+
+/* Services : END */
+
+
+/* ========================================================== */
+
+
+/* Features : START */
+
+$features-title-color:#FFFFFF;
+$features-heading-color:$features-title-color;
+$features-text-color:$text-color;
+$features-logo-color:#8EA3B6;
+$features-logo-font-size:30px;
+$features-bg-color:#274054;
+
+/* Features : END */
+
+
+/* ========================================================== */
+
+
+/* Team : START */
+
+$team-title-color:$headline-color;
+$team-heading-color:#AAB3BC;
+$team-text-color:$text-color;
+$team-social-logos-color:#BBC7D3;
+
+/* Team : END */
+
+
+/* ========================================================== */
+
+
+/* Video Section : START */
+
+$video-title-color:$headline-color;
+$video-text-color:$text-color;
+$video-button-color:$brand-success;
+
+/* Video Section : END */
+
+
+/* ========================================================== */
+
+
+/* Testimonials : START */
+
+$testimonial-title-color:$headline-color;
+$testimonial-heading-color:$team-heading-color;
+$testimonial-text-color:$text-color;
+$testimonial-bg-color:#7FB553;
+
+/* Testimonials : END */
+
+
+/* ========================================================== */
+
+
+/* Footer : START */
+
+$footer-bg-color:#232323;
+$footer-brand-bg-color: #274054;
+$footer-brand-color:#FFFFFF;
+$footer-brand-font-size:35px;
+$footer-menu-link-default-state-color:$text-color;
+$footer-menu-link-active-color:#FFFFFF;
+$footer-social-link-default-state-color:$footer-menu-link-default-state-color;
+$footer-social-link-active-color:$footer-menu-link-active-color;
+$footer-text-color:$text-color;
+$footer-font-size:14px;
+
+/* Footer : END */
+
+
+
+
+/* ========================================================== */

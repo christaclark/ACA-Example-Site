@@ -1,0 +1,224 @@
+@media (min-width: 1500px) {
+    .container {
+        width: 1290px !important;
+    }
+}
+@media all and (max-width: 800px) and (min-width: 720px) {
+    .container {
+        width: 650px !important;
+    }
+}
+@media all and (max-width: 800px) and (min-width: 720px) {
+    .buy-maker .container,
+    .show-background-ligth .container {
+        width: 750px !important;
+    }
+    .show-background-ligth .mt {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+    .call-to-action {
+        padding-right: 25px;
+    }
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    font-family: $main-font-family!important;
+    color: $text-color!important;
+    font-size: $main-font-size;
+}
+p {
+    color: $text-color;
+    font-family: $main-font-family!important;
+}
+ul,
+li {
+    color: $text-color;
+}
+a {
+    text-transform: uppercase;
+    color: $text-color;
+    outline: none!important;
+    &:hover {
+        text-decoration: none;
+        color: $brand-success;
+    }
+    &:hover,
+    :focus,
+    :active {
+        outline: none!important;
+    }
+}
+button {
+    outline: none!important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $headline-color!important;
+    font-family: $title-font-family-regular !important;
+}
+
+h1 {
+    font-size: $h1-font-size;
+}
+
+
+.menu-link {
+    border-bottom: 1.5px solid transparent;
+}
+.active-page .menu-link {
+    border-bottom: 1.5px solid $brand-success;
+}
+.fixed-header .active-page .menu-link::before {
+    background: transparent !important;
+}
+.margins {
+    margin: 50px 0;
+}
+/*top borders on titles*/
+
+.advertise-heading,
+.portfolio-title {
+    position: relative;
+    &:before {
+        content: " ";
+        display: block;
+        background-color: $title-heading-color;
+        height: 2px;
+        width: 45px;
+        position: absolute;
+        top: -24px;
+    }
+}
+.advertise-heading {
+    &:before {
+        left: calc(50% - 30px);
+    }
+}
+.portfolio-title {
+    &:before {
+        left: 0;
+    }
+}
+@media (max-width: 750px) {
+    h3 {
+        font-size: 28px !important;
+    }
+    .portfolio-title {
+        position: relative;
+        &:before {
+            content: " ";
+            display: block;
+            background-color: $title-heading-color;
+            height: 2px;
+            width: 45px;
+            position: absolute;
+            left: calc(50% - 30px);
+            top: -15px;
+        }
+    }
+    .mt {
+        text-align: center;
+    }
+    p {
+        font-size: 15px;
+    }
+    .move-on-small-services {
+        margin: 50px 0;
+        display: block;
+        .box-services i, .svg {
+            font-size: 30px !important;
+            border: none !important;
+            padding: 0 !important;
+        }
+        .svg {
+            width: 35px !important;
+            height: 44px !important;
+        }
+        .service-post {
+            padding-left: 50px !important;
+            p {
+                margin: 10px 0px !important;
+            }
+        }
+    }
+}
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #9cabb9;
+}
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #9cabb9;
+}
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #9cabb9;
+}
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #9cabb9;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: transparent;
+}
+input {
+    border: 1px solid #c3ced6;
+    &:focus {
+        outline-color: #90a3b0;
+        color: #2b363f;
+    }
+}
+.main-content.container-fluid {
+    background: #fff;
+    z-index: 2;
+    position: relative;
+}
+.row {
+    margin-bottom: 10%;
+}
+@media (min-width: 960px) {
+    h3 {
+        font-size: $h3-font-size;
+        margin: 0px 0px 25px!important;
+    }
+    h4 {
+        font-size: $h4-font-size !important;
+    }
+    p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+}
+@media (min-width: 200px) {
+    p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+@media (max-width: 640px) {
+    h4 {
+        font-size: 24px !important;
+    }
+}
+
+.photo-wrapper {
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

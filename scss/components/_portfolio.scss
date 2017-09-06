@@ -1,0 +1,99 @@
+.portfolio {
+    .img-hover {
+        position: relative;
+    }
+    .img-hover:hover .div-hover {
+        opacity: 1;
+        transition: opacity .3s ease;
+        moz-transition: opacity .3s ease-in-out;
+        position: absolute;
+    }
+    .div-hover {
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+        left: 0;
+        padding: 1em;
+        width: 100%;
+        transition: opacity .3s ease;
+        opacity: 0;
+    }
+    .portfolio_info {
+        background: #fff;
+        padding: 1em;
+        margin: 0 0.5em 0.5em 0.5em;
+    }
+    .big-image .div-hover {
+        left: 0;
+        width: 60%;
+    }
+    .div-hover h2 {
+        margin-top: 0px;
+    }
+    .div-hover p {
+        margin-bottom: 0px;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 400;
+        color: $brand-success;
+    }
+    .div-hover a {
+        margin-bottom: 0px;
+        font-size: 17px;
+        font-weight: 400;
+        color: $text-color;
+        text-transform: capitalize;
+    }
+    .div-hover a:hover {
+        color: $brand-success;
+    }
+    .portfolio-body {
+        padding-top: 150px;
+        background: #fff;
+    }
+    .portfolio-body .mt {
+        margin-bottom: 100px;
+    }
+    .img-responsive {
+        width: 100% !important;
+        height: auto !important;
+        ;
+        overflow: hidden !important;
+        ;
+    }
+    .portfolio-body {
+        background: #fff;
+    }
+    .portfolio-image {
+        position: relative;
+        margin: 0 0 30px 0;
+        opacity: 0;
+    }
+    .paddingoff {
+        padding: 0;
+    }
+    @media (max-width: 990px) {
+        .div-hover {
+            opacity: 1;
+        }
+        .big-image .div-hover {
+            width: 100%;
+        }
+    }
+    @media (max-width: 550px) {
+        .portfolio_info h2 {
+            font-size: 17px;
+        }
+    }
+    @media (max-width: 350px) {
+        .portfolio_info h2 {
+            font-size: 15px;
+        }
+        .div-hover {
+            line-height: 5px;
+        }
+        .div-hover a {
+            font-size: 12px;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.buy-maker {
+    background: $popular-section-bg-color;
+    padding: 100px 0px 100px 0px;
+    h3 {
+        &:first-child {
+            margin-top: 0px;
+            margin-bottom: 5px !important;
+        }
+        &:nth-child(2) {
+            margin-bottom: 0px !important;
+        }
+    }
+    .buy-maker-elements {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .buy-now {
+            border-radius: 0px;
+            box-shadow: 0 12px 45px -1px rgba(0, 0, 0, 0.2);
+            color: #fff;
+            float: right;
+            font-family: "PT SANS";
+            padding: 20px 32px;
+            letter-spacing: 1px;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 0px;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+@media (max-width: 960px) {
+    .buy-maker {
+        background: $popular-section-bg-color;
+        padding: 50px 0px 35px 0px;
+    }
+}
+@media (max-width: 760px) {
+    .buy-maker-elements {
+        flex-direction: column;
+        .buy-maker-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+}

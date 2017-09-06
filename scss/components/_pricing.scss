@@ -1,0 +1,157 @@
+@font-face {
+    font-family: UXPin-Homepage;
+    src: url(../fonts/Icons-Homepage.woff?-sobet) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+#price-plans {
+    .pricing-overlay {
+        background-color: $popular-section-bg-color;
+        text-align: center;
+        padding: 30px 20px 25px 20px;
+    }
+    page-pricing .plan-features {
+        margin-top: 35px;
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.33em;
+    }
+    .plan-features.pricing-column {
+        margin-top: 35px;
+        font-size: 15px;
+        line-height: 1.33em;
+        padding-left: 17px;
+    }
+    .pricing-column .with-ticker {
+        display: inline-block;
+        margin-bottom: 10px;
+        padding: 6px 15px 0 35px;
+        position: relative;
+        line-height: 1.5em;
+        color: #5b6b79;
+        font-size: 17px;
+    }
+    .pricing-column .with-ticker:after {
+        content: '';
+        width: 15px;
+        height: 15px;
+        
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        left: 11px;
+    }
+    .pricing-column .with-ticker:before {
+        position: absolute;
+        top: 7.5px;
+        left: 8.5px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        text-transform: none;
+        line-height: 100%;
+        color: #5b6b79;
+        content: "\e627";
+        font-size: 21px;
+        font-family: UXPin-Homepage;
+    }
+    .target-name {
+        color: #6B7A86;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .price {
+        color: #333;
+        font-size: 55px;
+        font-family: "Rubik Light", Arial, sans-serif;
+    }
+    .target-poplaur {
+        transform: rotate(269deg);
+        float: left;
+        transform-origin: 22px 32px;
+        position: absolute;
+        color: #D9DEE0;
+    }
+    .most-poplaur-btn::before {
+        background: #ED5F43;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: all 0.3s ease 0s;
+        width: 100%;
+        z-index: -1;
+        border-color: #EDF1F4 !important;
+    }
+    .most-poplaur-btn:hover::before {
+        width: 0;
+    }
+    .most-poplaur-btn:hover {
+        border: 1px solid #ED5F43 !important;
+        color: #ED5F43 !important;
+        ;
+    }
+    .most-poplaur-btn {
+        position: relative !important;
+        z-index: 1;
+    }
+    .sign-up-link {
+        padding: 12px 33px !important;
+        background: #fff;
+    }
+    @media (max-width: 990px) {
+        .pricing-column .with-ticker {
+            display: block;
+        }
+    }
+    @media (max-width: 780px) {
+        .plan-features.pricing-column {
+            display: none;
+        }
+        .pricing-overlay {
+            margin-top: 30px;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .advertise-description {
+        padding: 0 20px;
+    }
+}
+.facts {
+    margin-bottom: 30px;
+    text-align: center;
+    & .facts-card {
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px 7px;
+        max-width: 200px;
+        width: 100%;
+        display: inline-block;
+        transition: all 0.3s ease 0s;
+    }
+    .category-price {
+        color: $brand-success;
+        font-family: "Rubik Light", Arial, sans-serif;
+        font-size: 50px;
+    }
+    .category-text {
+        font-size: 17px;
+    }
+    .facts-content {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    .round-button {
+        color: $brand-success;
+    }
+}
+@media (max-width: 760px) {
+    .pricing .category-price {
+        font-size: 35px;
+    }
+    .facts-card {
+        margin: 0 !important;
+    }
+}

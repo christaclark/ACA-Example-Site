@@ -1,0 +1,316 @@
+.article-header {
+    background: lightgrey;
+    position: relative;
+    padding: 220px 0px;
+    background-image: url("../images/minimalist-sofa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .hero-overlay {
+        background: rgba(43, 54, 63, 0.6) none repeat scroll 0 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .wrapper-small {
+        max-width: 800px;
+        margin: auto;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        h1 {
+            color: #fff !important;
+            font-size: 4em !important;
+        }
+        .brand {
+            text-transform: uppercase;
+            font-size: 17x;
+            letter-spacing: 10px;
+        }
+        .author-details {
+            padding-top: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .author-data {
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+            align-items: flex-start;
+            font-size: 20px;
+        }
+        .image {
+            display: inline-block;
+            border-radius: 50%;
+            overflow: hidden;
+            img {
+                width: 75px;
+                height: 75px;
+            }
+        }
+    }
+}
+.article-body {
+    background: #fff;
+    .wrapper {
+        display: flex;
+        align-items: center;
+        &-small {
+            max-width: 800px;
+            margin: auto;
+            &:first-child {
+                padding: 72px 0px 65px 0px;
+                h2 {
+                    padding: 32px 0px 24px 0px;
+                }
+                &:first-letter {
+                    color: #5b6b78;
+                    float: left;
+                    font-size: 48px;
+                    line-height: 48px;
+                    padding-right: 8px;
+                    font-weight: bold;
+                }
+            }
+            &.align {
+                display: flex;
+                align-items: center;
+                max-width: 910px !important;
+                padding-bottom: 56px;
+                &:first-child {
+                    margin-top: 40px;
+                }
+                &:nth-child(odd) {
+                    margin-left: 0px;
+                    p {
+                        padding-left: 25px;
+                    }
+                }
+                &:nth-child(even) {
+                    margin-right: 0px;
+                    flex-direction: row-reverse;
+                    p {
+                        padding-right: 25px;
+                    }
+                    .image {
+                        display: flex;
+                        justify-content: flex-end;
+                    }
+                }
+            }
+            .image {
+                flex: 0 0 40%;
+            }
+        }
+        &-medium {
+            max-width: 1024px;
+            margin: auto;
+        }
+    }
+    blockquote {
+        border-left: 5px solid #ec5f43;
+        font-style: italic;
+        margin: 56px 0px;
+    }
+    ul {
+        padding-left: 20px;
+        li {
+            list-style-type: square;
+            p {
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .portfolio-title {
+        font-family: 'Rubik' !important;
+        font-weight: 400;
+    }
+    .social-share {
+        margin-top: 100px;
+        hr {
+            margin: 15px 0px;
+        }
+        .align-items {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .hash-tags span {
+                padding: 5px 8px;
+                background: #edf1f4;
+                margin-right: 2px;
+            }
+        }
+        .social-icons {
+            display: flex;
+            flex-direction: row;
+            i {
+                color: #fff;
+                font-size: 20px;
+                width: 20px;
+                margin: 0 2px;
+                width: 40px;
+                height: 40px;
+                padding-top: 10px;
+            }
+            .fa-facebook {
+                background: #4268b3;
+            }
+            .fa-twitter {
+                background: #1da1f3;
+            }
+            .fa-google-plus {
+                background: #dc4437;
+            }
+            .fa-pinterest {
+                background: #bd071d;
+            }
+            .fa-plus-square {
+                background: #fe664f;
+            }
+        }
+    }
+    .author {
+        display: flex;
+        padding-bottom: 100px;
+        padding-top: 50px;
+        .author-details {
+            a {
+                text-transform: none;
+                p {
+                    color: $brand-success;
+                }
+            }
+        }
+        .image {
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 25px;
+        }
+    }
+    .related-articles {
+        .portfolio-title {
+            margin-bottom: 50px;
+        }
+        .product-container {
+            margin-bottom: 10px;
+            .title-name {
+                font-size: 20px;
+                color: #2a3740;
+                text-transform: capitalize;
+                &:hover {
+                    color: $brand-success;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .submit-article {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        .required {
+            color: $brand-success;
+        }
+        h2 {
+            margin-bottom: 62px;
+        }
+        p {
+            color: #474c50;
+        }
+        .label-value {
+            margin-bottom: 20px;
+        }
+        input,
+        textarea {
+            width: 100%;
+            padding: 13px 12px;
+            font-size: 17px;
+            border: 1px solid #d5d5d5;
+            border-radius: 2px;
+            outline: none;
+            -webkit-transition: all 0.30s ease-in-out;
+            transition: all 0.30s ease-in-out;
+            &:focus {
+                border: 1px solid $brand-success;
+                -webkit-transition: all 0.30s ease-in-out;
+                transition: all 0.30s ease-in-out;
+            }
+        }
+    }
+    .comments-section {
+        padding-top: 100px;
+        .portfolio-title {
+            margin-bottom: 50px;
+        }
+        ul {
+            padding-left: 0px;
+            li {
+                list-style-type: none;
+                display: flex;
+            }
+        }
+        h4 {
+            text-align: left;
+            margin-top: 0px;
+        }
+        hr {
+            margin: 30px 0px;
+            color: #dee6e9;
+        }
+        p {
+            padding-top: 0px;
+            margin-bottom: 5px;
+            margin-top: 8px;
+        }
+        .subcomment {
+            padding-top: 30px;
+        }
+        .comment-image {
+            padding-right: 25px;
+            padding-top: 5px;
+            img {
+                width: 80px;
+                height: 80px;
+                border-radius: 40px;
+            }
+        }
+        .date {
+            color: #697782;
+        }
+        .reply {
+            p {
+                color: $title-heading-color;
+                text-decoration: none;
+                text-transform: capitalize;
+            }
+            &:hover {
+                text-decoration: underline;
+                color: $title-heading-color;
+            }
+        }
+    }
+}
+@media (max-width: 760px) {
+    h1 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 17px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .wrapper-small.align {
+        display: block !important;
+        img {
+            width: 100% !important;
+            height: 100% !important;
+            padding-bottom: 10px;
+        }
+    }
+}
+.article-header1 {
+    background-color: #2E353F;
+}

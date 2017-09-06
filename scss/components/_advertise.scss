@@ -1,0 +1,23 @@
+.advertise {
+    text-align: center;
+    padding-bottom: 88px;
+    padding-top: 50px;
+    .advertise-description {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+}
+.advertise-heading {
+    position: relative;
+}
+@media (min-width: 750px) {
+    .advertise {
+        padding-top: 100px;
+    }
+}
+@media (max-width: 750px) {
+    #advertise-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

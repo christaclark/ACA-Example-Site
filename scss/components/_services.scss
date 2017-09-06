@@ -1,0 +1,54 @@
+.services {
+    padding-top: 70px;
+    .fadeInUp {
+        animation-name: fadeInUp;
+    }
+    .animated {
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
+    .box-services i, .svg {
+        color: $brand-success;
+        font-size: 45px;
+        left: 0;
+        position: absolute;
+    }
+    .box-services p {
+        padding: 0 20px 20px 0;
+    }
+    i, .svg {
+        color: $brand-success;
+        font-size: 45px;
+        left: 0;
+        position: absolute;
+    }
+    .portfolio-text {
+        margin-bottom: 50px;
+    }
+    .box-services {
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .service-post {
+        padding-left: 95px;
+        text-align: left;
+    }
+    .section-heading {
+        padding-bottom: 88px;
+    }
+    .box-services i, .svg {
+        border: 1px solid #E1E7EA;
+        padding: 10px;
+    }
+    .box-services .svg {
+        padding: 14px;
+            width: 66px;
+    height: 66px;
+    }
+}
+@media (max-width: 760px) {
+    .advertise {
+        text-align: center;
+        padding-bottom: 0px;
+    }
+}

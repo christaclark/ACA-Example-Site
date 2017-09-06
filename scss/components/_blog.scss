@@ -1,0 +1,84 @@
+.blog-body {
+    padding-top: 150px;
+    background: #fff;
+    .portfolio-title {
+        font-size: 3.75em;
+        font-family: 'Rubik' !important;
+        font-weight: 400;
+    }
+    .mt {
+        margin-bottom: 100px;
+    }
+    .blog-article {
+        position: relative;
+        margin: 0 0 100px 0;
+        opacity: 0;
+    }
+    .title {
+        margin-bottom: 20px;
+        a {
+            text-transform: none;
+            color: #2c363f;
+            &:hover {
+                color: #ec5f41;
+            }
+        }
+        .author {
+            color: #2b353f;
+            .date {
+                color: #7a848d;
+            }
+        }
+    }
+    .img {
+        img {
+            width: 100%;
+        }
+    }
+    .article-type {
+        position: absolute;
+        top: 11px;
+        background: #fff;
+        padding: 3px 8px;
+        left: 25px;
+        span {
+            text-transform: uppercase;
+            color: #ec5f41;
+            font-family: 'PT Sans';
+            font-size: 12px;
+        }
+    }
+    .load-more {
+        text-align: center;
+        padding-bottom: 120px;
+        display: none;
+        button {
+            border-width: 1px !important;
+        }
+    }
+    .category-meniu {
+        margin-left: 15px;
+        margin-bottom: 30px;
+        span {
+            color: $text-color;
+        }
+        .category-title {
+            text-transform: capitalize;
+            cursor: pointer;
+            display: inline-block;
+            &:hover {
+                color: $title-heading-color;
+            }
+        }
+    }
+    .active {
+        color: $title-heading-color;
+    }
+}
+@media (min-width: 1200px) {
+    .blog-body {
+        .title {
+            width: 95%;
+        }
+    }
+}

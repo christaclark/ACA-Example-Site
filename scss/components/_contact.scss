@@ -1,0 +1,97 @@
+.main-content.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+    .border {
+        height: 1px;
+        background: #e3e7ea;
+        width: 100%;
+    }
+}
+.contact-body {
+    margin-top: 150px;
+    padding-bottom: 80px;
+    background: #fff;
+    .portfolio-title {
+        font-size: $h3-font-size;
+        font-family: 'Rubik' !important;
+        font-weight: 400;
+    }
+    .information {
+        padding-top: 120px;
+    }
+    .submit-article,
+    .address {
+        padding-top: 0px;
+        padding-bottom: 100px;
+        h2 {
+            margin-bottom: 62px;
+        }
+        p {
+            color: $text-color;
+        }
+        .label-value {
+            margin-bottom: 20px;
+        }
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 13px 12px;
+            font-size: 17px;
+            border: 1px solid #c3ced6;
+            border-radius: 2px;
+            outline: none;
+            -webkit-transition: all 0.30s ease-in-out;
+            transition: all 0.30s ease-in-out;
+            &:focus {
+                border: 1px solid #90a3b1;
+                -webkit-transition: all 0.30s ease-in-out;
+                transition: all 0.30s ease-in-out;
+            }
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p {
+                font-style: italic;
+            }
+        }
+    }
+    .address,
+    .phone {
+        padding-bottom: 0px;
+        p {
+            padding-bottom: 15px;
+        }
+    }
+    .email a {
+        color: #3f3f3f;
+        font-size: 22px;
+        text-transform: none;
+        &:hover {
+            text-decoration: underline;
+            color: $brand-success;
+        }
+    }
+    #map {
+        margin-top: 56px;
+        height: 350px;
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .information {
+        padding-top: 62px !important;
+    }
+    h3 {
+        padding-bottom: 24px;
+    }
+}
+@media (max-width: 560px) {
+    .content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}

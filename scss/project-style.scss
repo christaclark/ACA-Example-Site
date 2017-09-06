@@ -1,0 +1,106 @@
+@import 'general-variables';
+@import 'components/fonts'; 
+@import 'components/general';
+@import 'components/header';
+@import 'components/popular';
+@import 'components/advertise';
+@import 'components/pricing';
+@import 'components/buy-maker';
+@import 'components/testimonials';
+@import 'components/footer';
+@import 'components/buttons';
+@import 'components/services'; 
+
+
+.project-article h4 {
+    font-size: $h4-font-size;
+}
+
+  .project {
+      .project-body {
+          background-color: #fff;
+          padding-top: 150px;
+          padding-bottom: 100px;
+      }
+      .project-article {
+          position: relative;
+          margin: 0 0 30px 0;
+          opacity: 0;
+      }
+      .mt {
+          margin-bottom: 50px;
+      }
+
+      .project-small-title {
+          color: $brand-success;
+          text-transform: uppercase;
+      }
+      .project-author {
+          font-size: $main-font-size;
+      }
+      .content-category a {
+          text-transform: lowercase;
+          color: $text-color;
+          text-decoration: none;
+          font-size: 17px;
+          &:hover {
+              text-decoration: underline;
+              color: $brand-success;
+          }
+      }
+      .social-networks .content-category {
+          padding-right: 3px;
+      }
+      .project-category {
+          padding-top: 20px;
+      }
+      .flex {
+          display: flex;
+          flex-wrap: wrap;
+      .flex-center {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+      }
+      }
+      @media (max-width: 990px) {
+          .img-responsive {
+              width: 100%;
+          }
+      }
+      @media (max-width: 770px) {
+          .project-category {
+              text-align: center;
+          }
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
